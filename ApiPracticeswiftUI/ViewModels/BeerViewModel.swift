@@ -1,0 +1,22 @@
+//
+//  BeerViewModel.swift
+//  ApiPracticeswiftUI
+//
+//  Created by Julien Ficerai on 16/03/2022.
+//
+
+import Foundation
+import Combine
+import Alamofire
+
+class BeerViewModel: ObservableObject {
+    
+    @Published var beers: [Beer] = [Beer]()
+    
+    func geetBeers() {
+        AF.request("https://api.punkapi.com/v2/beers").response { response in
+            self.beers = try! JSONDecoder().decode([Beer].self, from: response.data!)
+        }
+    }
+    
+}
