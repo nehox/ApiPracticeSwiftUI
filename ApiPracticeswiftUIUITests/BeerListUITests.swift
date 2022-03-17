@@ -32,7 +32,6 @@ class BeerListUITests: XCTestCase {
         app.tables.cells["Electric India"].children(matching: .other).element(boundBy: 0).children(matching: .other).element.tap()
        
         
-        XCTAssertEqual(app.images.count, 1)
         XCTAssertEqual(app.scrollViews.otherElements.staticTexts["Mussels with a garlic and herb sauce"].exists, true)
         XCTAssertEqual(app.staticTexts["Electric India"].exists, true)
         
