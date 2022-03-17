@@ -21,9 +21,9 @@ struct HomeView: View {
                 .background(.gray)
                 .foregroundColor(.white)
                 .cornerRadius(8)
-                Button("random beer"){
-                    beerViewModel.geetBeers()
-                }
+                NavigationLink(destination: RandomBeerView(), label: {
+                    Text("random beer")
+                })
                 .padding()
                     .background(.gray)
                     .foregroundColor(.white)

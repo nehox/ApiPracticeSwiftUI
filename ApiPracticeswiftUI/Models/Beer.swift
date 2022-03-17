@@ -8,7 +8,7 @@
 struct Beer: Codable, Identifiable {
     let id: Int?
     let name, tagline, first_brewed : String?
-    let image_url: String?
+    let image_url, description: String?
     let abv: Float?
     let ibu, ebc: Float?
     let srm: Float?

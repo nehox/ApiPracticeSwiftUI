@@ -17,8 +17,12 @@ struct ListOfBeersView: View {
             NavigationLink(beer.name ?? "") {
                 BeerDetailsView(beer: beer)
             }
-        }.onAppear {
-            beersViewModel.geetBeers()
         }
+    }
+}
+
+struct ListOfBeersView_Previews: PreviewProvider {
+    static var previews: some View {
+        ListOfBeersView()
     }
 }

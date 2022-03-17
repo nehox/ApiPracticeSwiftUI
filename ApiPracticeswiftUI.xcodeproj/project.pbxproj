@@ -19,6 +19,7 @@
 		AA503FE227E27EAD000CD4FA /* Beer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA503FE127E27EAD000CD4FA /* Beer.swift */; };
 		AA503FE427E280C6000CD4FA /* ListOfBeerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA503FE327E280C6000CD4FA /* ListOfBeerView.swift */; };
 		AA503FE627E28132000CD4FA /* BeerDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA503FE527E28132000CD4FA /* BeerDetailsView.swift */; };
+		AA503FE827E33988000CD4FA /* RandomBeerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA503FE727E33988000CD4FA /* RandomBeerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		AA503FE127E27EAD000CD4FA /* Beer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beer.swift; sourceTree = "<group>"; };
 		AA503FE327E280C6000CD4FA /* ListOfBeerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfBeerView.swift; sourceTree = "<group>"; };
 		AA503FE527E28132000CD4FA /* BeerDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerDetailsView.swift; sourceTree = "<group>"; };
+		AA503FE727E33988000CD4FA /* RandomBeerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomBeerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +147,7 @@
 				AA503FB127E2319E000CD4FA /* HomeView.swift */,
 				AA503FE327E280C6000CD4FA /* ListOfBeerView.swift */,
 				AA503FE527E28132000CD4FA /* BeerDetailsView.swift */,
+				AA503FE727E33988000CD4FA /* RandomBeerView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -303,6 +306,7 @@
 			files = (
 				AA503FDA27E23F91000CD4FA /* BeerViewModel.swift in Sources */,
 				AA503FB227E2319E000CD4FA /* HomeView.swift in Sources */,
+				AA503FE827E33988000CD4FA /* RandomBeerView.swift in Sources */,
 				AA503FB027E2319E000CD4FA /* ApiPracticeswiftUIApp.swift in Sources */,
 				AA503FE427E280C6000CD4FA /* ListOfBeerView.swift in Sources */,
 				AA503FE227E27EAD000CD4FA /* Beer.swift in Sources */,
