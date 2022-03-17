@@ -22,6 +22,7 @@
 		AA503FEA27E37D34000CD4FA /* BeerListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA503FE927E37D34000CD4FA /* BeerListUITests.swift */; };
 		AA503FEC27E37D92000CD4FA /* HomeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA503FEB27E37D92000CD4FA /* HomeUITests.swift */; };
 		AA503FEE27E37DD3000CD4FA /* RandomBeerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA503FED27E37DD3000CD4FA /* RandomBeerUITests.swift */; };
+		AA503FF027E3D65E000CD4FA /* beer.json in Resources */ = {isa = PBXBuildFile; fileRef = AA503FEF27E3D65E000CD4FA /* beer.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		AA503FE927E37D34000CD4FA /* BeerListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerListUITests.swift; sourceTree = "<group>"; };
 		AA503FEB27E37D92000CD4FA /* HomeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeUITests.swift; sourceTree = "<group>"; };
 		AA503FED27E37DD3000CD4FA /* RandomBeerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomBeerUITests.swift; sourceTree = "<group>"; };
+		AA503FEF27E3D65E000CD4FA /* beer.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = beer.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				AA503FC027E2319F000CD4FA /* ApiPracticeswiftUITests.swift */,
+				AA503FEF27E3D65E000CD4FA /* beer.json */,
 			);
 			path = ApiPracticeswiftUITests;
 			sourceTree = "<group>";
@@ -293,6 +296,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA503FF027E3D65E000CD4FA /* beer.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

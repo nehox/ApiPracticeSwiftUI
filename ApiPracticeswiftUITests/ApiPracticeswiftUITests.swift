@@ -6,31 +6,79 @@
 //
 
 import XCTest
+import Foundation
 @testable import ApiPracticeswiftUI
 
 class ApiPracticeswiftUITests: XCTestCase {
 
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
-    }
-
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-    }
-
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-        // Any test you write for XCTest can be annotated as throws and async.
-        // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
-        // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
-    }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
+    var beer: Beer?
+    
+    override func setUp() {
+        super.setUp()
+       do {
+            let testBundle = Bundle(for: type(of: self))
+            if let url = testBundle.url(forResource: "beer", withExtension: "json") {
+                let jsonData = try Data(contentsOf: url)
+                self.beer = try JSONDecoder().decode(Beer.self, from: jsonData)
+            }
+        } catch {
+            print("oups")
         }
     }
-
+    
+    func testId() {
+        XCTAssertEqual(beer?.id, 1)
+    }
+    
+    func testName() {
+        XCTAssertEqual(beer?.name, "Buzz")
+    }
+    
+    func testTagline() {
+        XCTAssertEqual(beer?.tagline, "A Real Bitter Experience.")
+    }
+    
+    func testFirst_brewed() {
+        XCTAssertEqual(beer?.first_brewed, "09/2007")
+    }
+    
+    func testImage_url(){
+        XCTAssertEqual(beer?.image_url, "https://images.punkapi.com/v2/keg.png")
+    }
+    
+    func testDescription(){
+        XCTAssertEqual(beer?.description, "A light, crisp and bitter IPA brewed with English and American hops. A small batch brewed only once.")
+    }
+    
+    func testAbv(){
+        XCTAssertEqual(beer?.abv, 4.5)
+    }
+    
+    func testIbu(){
+        XCTAssertEqual(beer?.ibu, 60)
+    }
+    
+    func testEbc(){
+        XCTAssertEqual(beer?.ebc, 20)
+    }
+    
+    func testSrm(){
+        XCTAssertEqual(beer?.srm, 10)
+    }
+    
+    func testPh(){
+        XCTAssertEqual(beer?.ph, 4.4)
+    }
+    
+    func testAttenuation_level(){
+        XCTAssertEqual(beer?.attenuation_level, 75)
+    }
+    
+    func testFood_pairing(){
+        XCTAssertEqual(beer?.food_pairing,[
+            "Spicy chicken tikka masala",
+            "Grilled chicken quesadilla",
+            "Caramel toffee cake"
+        ])
+    }
 }
