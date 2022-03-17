@@ -16,13 +16,13 @@ class RandomBeerTests: XCTestCase {
         
         app.buttons["Random beer"].tap()
         
-        let image1 = app.images.firstMatch
         sleep(3)
-        let image2 = app.images.firstMatch
         
+        while(app.staticTexts["Avery Brown Dredge"].exists) {
+            app.buttons["Drink !"].tap()
+        }
         
-        XCTAssertNotEqual(image1, image2)
+        XCTAssertEqual(app.staticTexts["Avery Brown Dredge"].exists, false)
         XCTAssertEqual(app.images.count, 1)
-        
     }
 }
