@@ -48,6 +48,8 @@ struct RandomBeerView: View {
     }
     
 
+    
+    /// loop with duration
     func randomizer() {
         Timer.scheduledTimer(withTimeInterval: 0.1, repeats: true) { (Timer) in
             if self.secondsRemaining > 0 {
@@ -75,7 +77,7 @@ struct RandomBeerView: View {
 
 struct RandomBeerView_Previews: PreviewProvider {
     static var previews: some View {
-        RandomBeerView(currentBeer: Beer(id: 1, name: "Buzz", tagline: "A Real Bitter Experience.", first_brewed: "09/2007", image_url: "https://images.punkapi.com/v2/keg.png", description: "A light, crisp and bitter IPA brewed with English and American hops. A small batch brewed only once.", abv: 4.5, ibu: 60, ebc: 20, srm: 10, ph: 4.4, attenuation_level: 75, food_pairing: ["Spicy chicken tikka masala","Grilled chicken quesadilla","Caramel toffee cake"]))
+        RandomBeerView()
     }
 }
 

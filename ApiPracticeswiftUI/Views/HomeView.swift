@@ -17,14 +17,14 @@ struct HomeView: View {
             NavigationView {
                 VStack {
                     NavigationLink(destination: ListOfBeersView(), label: {
-                        Text("List de bières")
+                        Text("Beer list")
                     })
                     .padding()
                     .background(.gray)
                     .foregroundColor(.white)
                     .cornerRadius(8)
                     NavigationLink(destination: RandomBeerView(), label: {
-                        Text("random beer")
+                        Text("Random beer")
                     })
                     .padding()
                         .background(.gray)

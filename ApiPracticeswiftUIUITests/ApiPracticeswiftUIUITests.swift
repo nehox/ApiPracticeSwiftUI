@@ -22,21 +22,38 @@ class ApiPracticeswiftUIUITests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
-    func testExample() throws {
-        // UI tests must launch the application that they test.
+    func testBeerHomeUI() throws {
         let app = XCUIApplication()
         app.launch()
-
-        // Use recording to get started writing UI tests.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+        
+        XCTAssertEqual(app.buttons["Beer list"].exists, true)
+        XCTAssertEqual(app.buttons["Random beer"].exists, true)
+        
     }
-
-    func testLaunchPerformance() throws {
-        if #available(macOS 10.15, iOS 13.0, tvOS 13.0, watchOS 7.0, *) {
-            // This measures how long it takes to launch your application.
-            measure(metrics: [XCTApplicationLaunchMetric()]) {
-                XCUIApplication().launch()
-            }
-        }
+    
+    func testBeerListUI() throws {
+        let app = XCUIApplication()
+        app.launch()
+        
+        app.buttons["Beer list"].tap()
+        
+        XCTAssertEqual(app.tables.cells["Electric India"].exists, true)
+        
+    }
+    
+    func testBeerDetailsUI() throws {
+        // UI tests must launch the application that they test.
+        
+        let app = XCUIApplication()
+        app.launch()
+        
+        app.buttons["Beer list"].tap()
+        app.tables.cells["Electric India"].children(matching: .other).element(boundBy: 0).children(matching: .other).element.tap()
+       
+        
+        XCTAssertEqual(app.images.count, 1)
+        XCTAssertEqual(app.scrollViews.otherElements.staticTexts["Mussels with a garlic and herb sauce"].exists, true)
+        XCTAssertEqual(app.staticTexts["Electric India"].exists, true)
+        
     }
 }
