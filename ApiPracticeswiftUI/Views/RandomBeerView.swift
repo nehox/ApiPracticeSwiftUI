@@ -43,7 +43,7 @@ struct RandomBeerView: View {
             }.onAppear {
                 currentBeer = getRandomBeer()
                 randomizer()
-            }
+            }.position(x: UIScreen.main.bounds.width/2, y: UIScreen.main.bounds.height/3)
         }
     }
     
@@ -55,6 +55,7 @@ struct RandomBeerView: View {
                 self.secondsRemaining -= 0.1
             } else {
                 Timer.invalidate()
+                self.secondsRemaining = 2
             }
         }
     }

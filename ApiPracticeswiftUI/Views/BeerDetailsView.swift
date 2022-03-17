@@ -11,28 +11,32 @@ struct BeerDetailsView: View {
     var beer : Beer
     
     var body: some View {
-        VStack {
-            
-            Text(beer.name ?? "").foregroundColor(Color(hex: 0xE7E7E7)).padding()
-            
-            if let urlStr = beer.image_url,
-            let url = URL(string: urlStr),
-            let data = try? Data(contentsOf: url),
-            let uiimage = UIImage(data: data){
-                Image(uiImage: uiimage).resizable().frame(width: 75, height: 225).padding()
-            }
-            
-            Text(beer.description ?? "").foregroundColor(Color(hex: 0xE7E7E7)).padding()
-            
-            ScrollView(.horizontal) {
-                HStack {
-                    ForEach(beer.food_pairing, id: \.self) { food in
-                        Spacer()
-                        Text(food)
-                            .padding(10)
-                            .background(Color(hex: 0x46A2B7))
-                            .cornerRadius(5)
-                            .foregroundColor(Color(hex: 0xE7E7E7))
+        ZStack {
+            Color(hex: 0xE7E7E7).ignoresSafeArea(.all)
+            VStack {
+                
+                Text(beer.name ?? "").foregroundColor(Color(hex: 0x6A7A8E))
+                
+                
+                if let urlStr = beer.image_url,
+                let url = URL(string: urlStr),
+                let data = try? Data(contentsOf: url),
+                let uiimage = UIImage(data: data){
+                    Image(uiImage: uiimage).resizable().frame(width: 75, height: 225).padding()
+                }
+                
+                Text(beer.description ?? "").foregroundColor(Color(hex: 0x6A7A8E)).padding()
+                
+                ScrollView(.horizontal) {
+                    HStack {
+                        ForEach(beer.food_pairing, id: \.self) { food in
+                            Spacer()
+                            Text(food)
+                                .padding(10)
+                                .background(Color(hex: 0x46A2B7))
+                                .cornerRadius(5)
+                                .foregroundColor(Color(hex: 0xE7E7E7))
+                        }
                     }
                 }
             }

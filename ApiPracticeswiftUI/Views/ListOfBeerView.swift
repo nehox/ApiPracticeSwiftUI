@@ -12,11 +12,13 @@ struct ListOfBeersView: View {
     @ObservedObject private var beersViewModel = BeerViewModel()
     
     var body: some View {
-        
-        List(beersViewModel.beers) { beer in
-            NavigationLink(beer.name ?? "") {
-                BeerDetailsView(beer: beer)
-            }
+        ZStack {
+            Color(hex: 0xE7E7E7).ignoresSafeArea(.all)
+            List(beersViewModel.beers) { beer in
+                NavigationLink(beer.name ?? "") {
+                    BeerDetailsView(beer: beer)
+                }
+            }.navigationTitle("List of beers")
         }
     }
 }
