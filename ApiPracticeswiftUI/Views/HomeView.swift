@@ -12,24 +12,24 @@ struct HomeView: View {
     var beerViewModel: BeerViewModel = BeerViewModel()
     
     var body: some View {
-        ZStack {
-            Color(hex: 0xE7E7E7).ignoresSafeArea(.all)
-            NavigationView {
+        NavigationView {
+            ZStack {
+                Color(hex: 0x6AA84F).ignoresSafeArea(.all)
                 VStack {
                     NavigationLink(destination: ListOfBeersView(), label: {
                         Text("Beer list")
                     })
                     .padding()
-                    .background(.gray)
+                    .background(Color(hex: 0x4f6aa8))
                     .foregroundColor(.white)
                     .cornerRadius(8)
                     NavigationLink(destination: RandomBeerView(), label: {
                         Text("Random beer")
                     })
                     .padding()
-                        .background(.gray)
-                        .foregroundColor(.white)
-                        .cornerRadius(8)
+                    .background(Color(hex: 0x4f6aa8))
+                    .foregroundColor(.white)
+                    .cornerRadius(8)
                     
                 }
             }
