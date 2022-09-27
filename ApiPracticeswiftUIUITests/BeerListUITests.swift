@@ -18,7 +18,9 @@ class BeerListUITests: XCTestCase {
         
         app.buttons["Beer list"].tap()
         
-        XCTAssertEqual(app.tables.cells["Electric India"].exists, true)
+        print(app.tables.cells["Buzz"])
+        
+        XCTAssertEqual(app.collectionViews/*@START_MENU_TOKEN@*/.cells.buttons["Buzz"]/*[[".cells.buttons[\"Buzz\"]",".buttons[\"Buzz\"]"],[[[-1,1],[-1,0]]],[1]]@END_MENU_TOKEN@*/.exists, true)
         
     }
 
@@ -29,8 +31,7 @@ class BeerListUITests: XCTestCase {
         app.launch()
         
         app.buttons["Beer list"].tap()
-        app.tables.cells["Electric India"].children(matching: .other).element(boundBy: 0).children(matching: .other).element.tap()
-       
+        app.collectionViews.cells.buttons["Electric India"].tap()
         
         XCTAssertEqual(app.scrollViews.otherElements.staticTexts["Mussels with a garlic and herb sauce"].exists, true)
         XCTAssertEqual(app.staticTexts["Electric India"].exists, true)

@@ -13,10 +13,13 @@ struct ListOfBeersView: View {
     
     var body: some View {
         ZStack {
-            Color(hex: 0xE7E7E7).ignoresSafeArea(.all)
+            Color(hex: 0x6AA84F).ignoresSafeArea(.all)
             List(beersViewModel.beers) { beer in
                 NavigationLink(beer.name ?? "") {
-                    BeerDetailsView(beer: beer)
+                    withAnimation(.easeInOut(duration: 4)) {
+                        BeerDetailsView(beer: beer)
+                    }
+                    
                 }
             }.navigationTitle("List of beers")
         }
