@@ -42,7 +42,7 @@ struct RandomBeerView: View {
                 .foregroundColor(Color.black)
 
             }.onAppear {
-                currentBeer = getRandomBeer()
+                currentBeer = getRandomBeer(beers: beersViewModel.beers)
                 randomizer()
             }.position(x: UIScreen.main.bounds.width/2, y: UIScreen.main.bounds.height/3)
         }
@@ -54,7 +54,7 @@ struct RandomBeerView: View {
     func randomizer() {
         Timer.scheduledTimer(withTimeInterval: 0.1, repeats: true) { (Timer) in
             if self.secondsRemaining > 0 {
-                currentBeer = self.getRandomBeer()
+                currentBeer = getRandomBeer(beers: beersViewModel.beers)
                 self.secondsRemaining -= 0.1
             } else {
                 Timer.invalidate()
@@ -63,17 +63,7 @@ struct RandomBeerView: View {
         }
     }
     
-    /// Get one random beer
-    /// - Returns: random beer
-    private func getRandomBeer() -> Beer? {
-        
-        if beersViewModel.beers.isEmpty {
-            return nil
-        } else {
-            let randomIndex = Int.random(in: 0...(beersViewModel.beers.count - 1))
-            return beersViewModel.beers[randomIndex]
-        }
-    }
+    
 }
 
 struct RandomBeerView_Previews: PreviewProvider {
