@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,7 +15,6 @@
 		AA503FCD27E2319F000CD4FA /* ApiPracticeswiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA503FCC27E2319F000CD4FA /* ApiPracticeswiftUIUITestsLaunchTests.swift */; };
 		AA503FDA27E23F91000CD4FA /* BeerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA503FD927E23F91000CD4FA /* BeerViewModel.swift */; };
 		AA503FDD27E2424F000CD4FA /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = AA503FDC27E2424F000CD4FA /* Alamofire */; };
-		AA503FE227E27EAD000CD4FA /* Beer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA503FE127E27EAD000CD4FA /* Beer.swift */; };
 		AA503FE427E280C6000CD4FA /* ListOfBeerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA503FE327E280C6000CD4FA /* ListOfBeerView.swift */; };
 		AA503FE627E28132000CD4FA /* BeerDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA503FE527E28132000CD4FA /* BeerDetailsView.swift */; };
 		AA503FE827E33988000CD4FA /* RandomBeerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA503FE727E33988000CD4FA /* RandomBeerView.swift */; };
@@ -23,6 +22,8 @@
 		AA503FEC27E37D92000CD4FA /* HomeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA503FEB27E37D92000CD4FA /* HomeUITests.swift */; };
 		AA503FEE27E37DD3000CD4FA /* RandomBeerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA503FED27E37DD3000CD4FA /* RandomBeerUITests.swift */; };
 		AA503FF027E3D65E000CD4FA /* beer.json in Resources */ = {isa = PBXBuildFile; fileRef = AA503FEF27E3D65E000CD4FA /* beer.json */; };
+		BE62DCED2A4C1901002F4EF1 /* BeersPackage in Frameworks */ = {isa = PBXBuildFile; productRef = BE62DCEC2A4C1901002F4EF1 /* BeersPackage */; };
+		BEADFEE42A49E02B0064E2A9 /* FavoriteBeerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEADFEE32A49E02B0064E2A9 /* FavoriteBeerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,7 +54,6 @@
 		AA503FC627E2319F000CD4FA /* ApiPracticeswiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ApiPracticeswiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA503FCC27E2319F000CD4FA /* ApiPracticeswiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiPracticeswiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		AA503FD927E23F91000CD4FA /* BeerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerViewModel.swift; sourceTree = "<group>"; };
-		AA503FE127E27EAD000CD4FA /* Beer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beer.swift; sourceTree = "<group>"; };
 		AA503FE327E280C6000CD4FA /* ListOfBeerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfBeerView.swift; sourceTree = "<group>"; };
 		AA503FE527E28132000CD4FA /* BeerDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerDetailsView.swift; sourceTree = "<group>"; };
 		AA503FE727E33988000CD4FA /* RandomBeerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomBeerView.swift; sourceTree = "<group>"; };
@@ -61,6 +61,7 @@
 		AA503FEB27E37D92000CD4FA /* HomeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeUITests.swift; sourceTree = "<group>"; };
 		AA503FED27E37DD3000CD4FA /* RandomBeerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomBeerUITests.swift; sourceTree = "<group>"; };
 		AA503FEF27E3D65E000CD4FA /* beer.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = beer.json; sourceTree = "<group>"; };
+		BEADFEE32A49E02B0064E2A9 /* FavoriteBeerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteBeerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +70,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA503FDD27E2424F000CD4FA /* Alamofire in Frameworks */,
+				BE62DCED2A4C1901002F4EF1 /* BeersPackage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,7 +114,6 @@
 		AA503FAE27E2319E000CD4FA /* ApiPracticeswiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				AA503FE027E27E9A000CD4FA /* Models */,
 				AA503FDF27E27E84000CD4FA /* ViewModels */,
 				AA503FDE27E27E77000CD4FA /* Views */,
 				AA503FAF27E2319E000CD4FA /* ApiPracticeswiftUIApp.swift */,
@@ -157,6 +158,7 @@
 				AA503FE327E280C6000CD4FA /* ListOfBeerView.swift */,
 				AA503FE527E28132000CD4FA /* BeerDetailsView.swift */,
 				AA503FE727E33988000CD4FA /* RandomBeerView.swift */,
+				BEADFEE32A49E02B0064E2A9 /* FavoriteBeerView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -167,14 +169,6 @@
 				AA503FD927E23F91000CD4FA /* BeerViewModel.swift */,
 			);
 			path = ViewModels;
-			sourceTree = "<group>";
-		};
-		AA503FE027E27E9A000CD4FA /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				AA503FE127E27EAD000CD4FA /* Beer.swift */,
-			);
-			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,6 +189,7 @@
 			name = ApiPracticeswiftUI;
 			packageProductDependencies = (
 				AA503FDC27E2424F000CD4FA /* Alamofire */,
+				BE62DCEC2A4C1901002F4EF1 /* BeersPackage */,
 			);
 			productName = ApiPracticeswiftUI;
 			productReference = AA503FAC27E2319E000CD4FA /* ApiPracticeswiftUI.app */;
@@ -270,6 +265,7 @@
 			mainGroup = AA503FA327E2319E000CD4FA;
 			packageReferences = (
 				AA503FDB27E2424F000CD4FA /* XCRemoteSwiftPackageReference "Alamofire" */,
+				BE62DCEB2A4C1901002F4EF1 /* XCLocalSwiftPackageReference "../../Desktop/Formation/BeersPackage" */,
 			);
 			productRefGroup = AA503FAD27E2319E000CD4FA /* Products */;
 			projectDirPath = "";
@@ -316,10 +312,10 @@
 			files = (
 				AA503FDA27E23F91000CD4FA /* BeerViewModel.swift in Sources */,
 				AA503FB227E2319E000CD4FA /* HomeView.swift in Sources */,
+				BEADFEE42A49E02B0064E2A9 /* FavoriteBeerView.swift in Sources */,
 				AA503FE827E33988000CD4FA /* RandomBeerView.swift in Sources */,
 				AA503FB027E2319E000CD4FA /* ApiPracticeswiftUIApp.swift in Sources */,
 				AA503FE427E280C6000CD4FA /* ListOfBeerView.swift in Sources */,
-				AA503FE227E27EAD000CD4FA /* Beer.swift in Sources */,
 				AA503FE627E28132000CD4FA /* BeerDetailsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -483,7 +479,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ApiPracticeswiftUI/Preview Content\"";
-				DEVELOPMENT_TEAM = QS9CBB5Y5P;
+				DEVELOPMENT_TEAM = S2KRYFAPYX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -498,9 +494,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.iutsd.ApiPracticeswiftUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,7";
 			};
 			name = Debug;
 		};
@@ -512,7 +512,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ApiPracticeswiftUI/Preview Content\"";
-				DEVELOPMENT_TEAM = QS9CBB5Y5P;
+				DEVELOPMENT_TEAM = S2KRYFAPYX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -527,9 +527,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.iutsd.ApiPracticeswiftUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,7";
 			};
 			name = Release;
 		};
@@ -650,6 +654,13 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCLocalSwiftPackageReference section */
+		BE62DCEB2A4C1901002F4EF1 /* XCLocalSwiftPackageReference "../../Desktop/Formation/BeersPackage" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../../Desktop/Formation/BeersPackage;
+		};
+/* End XCLocalSwiftPackageReference section */
+
 /* Begin XCRemoteSwiftPackageReference section */
 		AA503FDB27E2424F000CD4FA /* XCRemoteSwiftPackageReference "Alamofire" */ = {
 			isa = XCRemoteSwiftPackageReference;
@@ -666,6 +677,10 @@
 			isa = XCSwiftPackageProductDependency;
 			package = AA503FDB27E2424F000CD4FA /* XCRemoteSwiftPackageReference "Alamofire" */;
 			productName = Alamofire;
+		};
+		BE62DCEC2A4C1901002F4EF1 /* BeersPackage */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = BeersPackage;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

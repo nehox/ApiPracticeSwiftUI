@@ -1,16 +1,14 @@
 //
 //  ContentView.swift
 //  ApiPracticeswiftUI
-//
-//  Created by Julien Ficerai on 16/03/2022.
-//
+
 
 import SwiftUI
 
 struct HomeView: View {
     
-    var beerViewModel: BeerViewModel = BeerViewModel()
-    
+    private var beerViewModel: BeerViewModel = BeerViewModel()
+     
     var body: some View {
         NavigationView {
             ZStack {

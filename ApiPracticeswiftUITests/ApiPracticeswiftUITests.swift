@@ -7,6 +7,7 @@
 
 import XCTest
 import Foundation
+import BeersPackage
 @testable import ApiPracticeswiftUI
 
 class ApiPracticeswiftUITests: XCTestCase {

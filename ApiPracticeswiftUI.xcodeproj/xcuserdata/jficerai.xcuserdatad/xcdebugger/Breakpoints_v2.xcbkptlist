@@ -55,64 +55,17 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "BE3CB460-5207-4798-B2F3-233D19A9D9C1"
-            shouldBeEnabled = "Yes"
+            uuid = "0CD8AED3-10D8-42B7-A533-53CD1DB7ACFF"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ApiPracticeswiftUIUITests/BeerListUITests.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "23"
-            endingLineNumber = "23"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
             landmarkName = "testBeerListUI()"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "BE3CB460-5207-4798-B2F3-233D19A9D9C1 - a10bf136e25f1fa3"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "ApiPracticeswiftUIUITests.BeerListUITests.testBeerListUI() throws -&gt; ()"
-                  moduleName = "ApiPracticeswiftUIUITests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/jficerai/Project/perso/ApiPracticeSwiftUI/ApiPracticeswiftUIUITests/BeerListUITests.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "23"
-                  endingLineNumber = "23"
-                  offsetFromSymbolStart = "516">
-               </Location>
-               <Location
-                  uuid = "BE3CB460-5207-4798-B2F3-233D19A9D9C1 - a10bf136e25f1fa3"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "ApiPracticeswiftUIUITests.BeerListUITests.testBeerListUI() throws -&gt; ()"
-                  moduleName = "ApiPracticeswiftUIUITests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/jficerai/Project/perso/ApiPracticeSwiftUI/ApiPracticeswiftUIUITests/BeerListUITests.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "23"
-                  endingLineNumber = "23"
-                  offsetFromSymbolStart = "603">
-               </Location>
-               <Location
-                  uuid = "BE3CB460-5207-4798-B2F3-233D19A9D9C1 - a10bf136e25f1fa3"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "ApiPracticeswiftUIUITests.BeerListUITests.testBeerListUI() throws -&gt; ()"
-                  moduleName = "ApiPracticeswiftUIUITests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/jficerai/Project/perso/ApiPracticeSwiftUI/ApiPracticeswiftUIUITests/BeerListUITests.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "23"
-                  endingLineNumber = "23"
-                  offsetFromSymbolStart = "728">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

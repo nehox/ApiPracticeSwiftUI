@@ -33,6 +33,8 @@ class BeerListUITests: XCTestCase {
         app.buttons["Beer list"].tap()
         app.collectionViews.cells.buttons["Electric India"].tap()
         
+        app.collectionViews.cells.buttons["Electric India"].tap()
+       
         XCTAssertEqual(app.scrollViews.otherElements.staticTexts["Mussels with a garlic and herb sauce"].exists, true)
         XCTAssertEqual(app.staticTexts["Electric India"].exists, true)
         

@@ -6,26 +6,47 @@
 //
 
 import SwiftUI
+import BeersPackage
 
 struct BeerDetailsView: View {
     var beer : Beer
+    @State var animate = false
     
     var body: some View {
         ZStack {
             Color(hex: 0xE7E7E7).ignoresSafeArea(.all)
             VStack {
                 
-                Text(beer.name ?? "").foregroundColor(Color(hex: 0x6A7A8E))
-                
+                HStack {
+                    
+                    
+                    Text(beer.name ?? "")
+                        .foregroundColor(Color(hex: 0x6A7A8E))
+                    
+                    Button(
+                        action: {
+                            animate.toggle()
+                        },
+                        label: {
+                            Image(systemName: "heart\(animate ? ".fill" : "")")
+                        })
+                    .rotationEffect(.degrees(animate ? 360 : 0))
+                    .animation(.snappy, value: animate)
+                    .font(.largeTitle)
+                    .foregroundColor(.red)
+                    
+                }
                 
                 if let urlStr = beer.image_url,
-                let url = URL(string: urlStr),
-                let data = try? Data(contentsOf: url),
-                let uiimage = UIImage(data: data){
+                   let url = URL(string: urlStr),
+                   let data = try? Data(contentsOf: url),
+                   let uiimage = UIImage(data: data){
                     Image(uiImage: uiimage).resizable().frame(width: 75, height: 225).padding()
                 }
                 
-                Text(beer.description ?? "").foregroundColor(Color(hex: 0x6A7A8E)).padding()
+                Text(beer.description ?? "")
+                    .foregroundColor(Color(hex: 0x6A7A8E))
+                    .padding()
                 
                 ScrollView(.horizontal) {
                     HStack {
