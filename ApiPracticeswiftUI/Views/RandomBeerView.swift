@@ -44,7 +44,7 @@ struct RandomBeerView: View {
             }.onAppear {
                 currentBeer = getRandomBeer(beers: beersViewModel.beers)
                 randomizer()
-            }.position(x: UIScreen.main.bounds.width/2, y: UIScreen.main.bounds.height/3)
+            }
         }
     }
     

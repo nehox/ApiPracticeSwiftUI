@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import BeersPackage
 
 struct ListOfBeersView: View {
     

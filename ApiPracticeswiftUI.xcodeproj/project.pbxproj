@@ -13,8 +13,6 @@
 		AA503FB727E2319F000CD4FA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA503FB627E2319F000CD4FA /* Preview Assets.xcassets */; };
 		AA503FC127E2319F000CD4FA /* ApiPracticeswiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA503FC027E2319F000CD4FA /* ApiPracticeswiftUITests.swift */; };
 		AA503FCD27E2319F000CD4FA /* ApiPracticeswiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA503FCC27E2319F000CD4FA /* ApiPracticeswiftUIUITestsLaunchTests.swift */; };
-		AA503FDA27E23F91000CD4FA /* BeerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA503FD927E23F91000CD4FA /* BeerViewModel.swift */; };
-		AA503FDD27E2424F000CD4FA /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = AA503FDC27E2424F000CD4FA /* Alamofire */; };
 		AA503FE427E280C6000CD4FA /* ListOfBeerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA503FE327E280C6000CD4FA /* ListOfBeerView.swift */; };
 		AA503FE627E28132000CD4FA /* BeerDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA503FE527E28132000CD4FA /* BeerDetailsView.swift */; };
 		AA503FE827E33988000CD4FA /* RandomBeerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA503FE727E33988000CD4FA /* RandomBeerView.swift */; };
@@ -24,6 +22,23 @@
 		AA503FF027E3D65E000CD4FA /* beer.json in Resources */ = {isa = PBXBuildFile; fileRef = AA503FEF27E3D65E000CD4FA /* beer.json */; };
 		BE62DCED2A4C1901002F4EF1 /* BeersPackage in Frameworks */ = {isa = PBXBuildFile; productRef = BE62DCEC2A4C1901002F4EF1 /* BeersPackage */; };
 		BEADFEE42A49E02B0064E2A9 /* FavoriteBeerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEADFEE32A49E02B0064E2A9 /* FavoriteBeerView.swift */; };
+		BEE0F8082A4D874400E97BD9 /* ApiPracticeSwiftUIWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE0F8072A4D874400E97BD9 /* ApiPracticeSwiftUIWatchApp.swift */; };
+		BEE0F80A2A4D874400E97BD9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE0F8092A4D874400E97BD9 /* ContentView.swift */; };
+		BEE0F80C2A4D874500E97BD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEE0F80B2A4D874500E97BD9 /* Assets.xcassets */; };
+		BEE0F80F2A4D874500E97BD9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEE0F80E2A4D874500E97BD9 /* Preview Assets.xcassets */; };
+		BEE0F8192A4D874600E97BD9 /* ApiPracticeSwiftUIWatch_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE0F8182A4D874600E97BD9 /* ApiPracticeSwiftUIWatch_Watch_AppTests.swift */; };
+		BEE0F8232A4D874600E97BD9 /* ApiPracticeSwiftUIWatch_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE0F8222A4D874600E97BD9 /* ApiPracticeSwiftUIWatch_Watch_AppUITests.swift */; };
+		BEE0F8252A4D874600E97BD9 /* ApiPracticeSwiftUIWatch_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE0F8242A4D874600E97BD9 /* ApiPracticeSwiftUIWatch_Watch_AppUITestsLaunchTests.swift */; };
+		BEE0F8282A4D874600E97BD9 /* ApiPracticeSwiftUIWatch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = BEE0F8052A4D874400E97BD9 /* ApiPracticeSwiftUIWatch Watch App.app */; platformFilter = ios; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		BEE0F8342A4D8EE600E97BD9 /* BeersPackage in Frameworks */ = {isa = PBXBuildFile; productRef = BEE0F8332A4D8EE600E97BD9 /* BeersPackage */; };
+		BEF078FB2A4C684C006F8B53 /* ApiPraticeSwiftUITvOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF078FA2A4C684C006F8B53 /* ApiPraticeSwiftUITvOSApp.swift */; };
+		BEF078FD2A4C684C006F8B53 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF078FC2A4C684C006F8B53 /* ContentView.swift */; };
+		BEF078FF2A4C684D006F8B53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEF078FE2A4C684D006F8B53 /* Assets.xcassets */; };
+		BEF079022A4C684D006F8B53 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEF079012A4C684D006F8B53 /* Preview Assets.xcassets */; };
+		BEF0790C2A4C684E006F8B53 /* ApiPraticeSwiftUITvOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF0790B2A4C684E006F8B53 /* ApiPraticeSwiftUITvOSTests.swift */; };
+		BEF079162A4C684E006F8B53 /* ApiPraticeSwiftUITvOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF079152A4C684E006F8B53 /* ApiPraticeSwiftUITvOSUITests.swift */; };
+		BEF079182A4C684E006F8B53 /* ApiPraticeSwiftUITvOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF079172A4C684E006F8B53 /* ApiPraticeSwiftUITvOSUITestsLaunchTests.swift */; };
+		BEF079262A4C6B1B006F8B53 /* BeersPackage in Frameworks */ = {isa = PBXBuildFile; productRef = BEF079252A4C6B1B006F8B53 /* BeersPackage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +56,56 @@
 			remoteGlobalIDString = AA503FAB27E2319E000CD4FA;
 			remoteInfo = ApiPracticeswiftUI;
 		};
+		BEE0F8152A4D874600E97BD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA503FA427E2319E000CD4FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEE0F8042A4D874400E97BD9;
+			remoteInfo = "ApiPracticeSwiftUIWatch Watch App";
+		};
+		BEE0F81F2A4D874600E97BD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA503FA427E2319E000CD4FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEE0F8042A4D874400E97BD9;
+			remoteInfo = "ApiPracticeSwiftUIWatch Watch App";
+		};
+		BEE0F8262A4D874600E97BD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA503FA427E2319E000CD4FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEE0F8042A4D874400E97BD9;
+			remoteInfo = "ApiPracticeSwiftUIWatch Watch App";
+		};
+		BEF079082A4C684E006F8B53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA503FA427E2319E000CD4FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEF078F72A4C684C006F8B53;
+			remoteInfo = ApiPraticeSwiftUITvOS;
+		};
+		BEF079122A4C684E006F8B53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA503FA427E2319E000CD4FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEF078F72A4C684C006F8B53;
+			remoteInfo = ApiPraticeSwiftUITvOS;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BEE0F8292A4D874600E97BD9 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				BEE0F8282A4D874600E97BD9 /* ApiPracticeSwiftUIWatch Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		AA503FAC27E2319E000CD4FA /* ApiPracticeswiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ApiPracticeswiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,7 +117,6 @@
 		AA503FC027E2319F000CD4FA /* ApiPracticeswiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiPracticeswiftUITests.swift; sourceTree = "<group>"; };
 		AA503FC627E2319F000CD4FA /* ApiPracticeswiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ApiPracticeswiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA503FCC27E2319F000CD4FA /* ApiPracticeswiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiPracticeswiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		AA503FD927E23F91000CD4FA /* BeerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerViewModel.swift; sourceTree = "<group>"; };
 		AA503FE327E280C6000CD4FA /* ListOfBeerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfBeerView.swift; sourceTree = "<group>"; };
 		AA503FE527E28132000CD4FA /* BeerDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerDetailsView.swift; sourceTree = "<group>"; };
 		AA503FE727E33988000CD4FA /* RandomBeerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomBeerView.swift; sourceTree = "<group>"; };
@@ -62,6 +125,26 @@
 		AA503FED27E37DD3000CD4FA /* RandomBeerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomBeerUITests.swift; sourceTree = "<group>"; };
 		AA503FEF27E3D65E000CD4FA /* beer.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = beer.json; sourceTree = "<group>"; };
 		BEADFEE32A49E02B0064E2A9 /* FavoriteBeerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteBeerView.swift; sourceTree = "<group>"; };
+		BEE0F8052A4D874400E97BD9 /* ApiPracticeSwiftUIWatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ApiPracticeSwiftUIWatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEE0F8072A4D874400E97BD9 /* ApiPracticeSwiftUIWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiPracticeSwiftUIWatchApp.swift; sourceTree = "<group>"; };
+		BEE0F8092A4D874400E97BD9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BEE0F80B2A4D874500E97BD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BEE0F80E2A4D874500E97BD9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BEE0F8142A4D874600E97BD9 /* ApiPracticeSwiftUIWatch Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ApiPracticeSwiftUIWatch Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEE0F8182A4D874600E97BD9 /* ApiPracticeSwiftUIWatch_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiPracticeSwiftUIWatch_Watch_AppTests.swift; sourceTree = "<group>"; };
+		BEE0F81E2A4D874600E97BD9 /* ApiPracticeSwiftUIWatch Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ApiPracticeSwiftUIWatch Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEE0F8222A4D874600E97BD9 /* ApiPracticeSwiftUIWatch_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiPracticeSwiftUIWatch_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		BEE0F8242A4D874600E97BD9 /* ApiPracticeSwiftUIWatch_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiPracticeSwiftUIWatch_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BEF078F82A4C684C006F8B53 /* ApiPraticeSwiftUITvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ApiPraticeSwiftUITvOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEF078FA2A4C684C006F8B53 /* ApiPraticeSwiftUITvOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiPraticeSwiftUITvOSApp.swift; sourceTree = "<group>"; };
+		BEF078FC2A4C684C006F8B53 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BEF078FE2A4C684D006F8B53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BEF079012A4C684D006F8B53 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BEF079072A4C684D006F8B53 /* ApiPraticeSwiftUITvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ApiPraticeSwiftUITvOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEF0790B2A4C684E006F8B53 /* ApiPraticeSwiftUITvOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiPraticeSwiftUITvOSTests.swift; sourceTree = "<group>"; };
+		BEF079112A4C684E006F8B53 /* ApiPraticeSwiftUITvOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ApiPraticeSwiftUITvOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEF079152A4C684E006F8B53 /* ApiPraticeSwiftUITvOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiPraticeSwiftUITvOSUITests.swift; sourceTree = "<group>"; };
+		BEF079172A4C684E006F8B53 /* ApiPraticeSwiftUITvOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiPraticeSwiftUITvOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,7 +152,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA503FDD27E2424F000CD4FA /* Alamofire in Frameworks */,
 				BE62DCED2A4C1901002F4EF1 /* BeersPackage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -88,6 +170,50 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BEE0F8022A4D874400E97BD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEE0F8342A4D8EE600E97BD9 /* BeersPackage in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEE0F8112A4D874600E97BD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEE0F81B2A4D874600E97BD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEF078F52A4C684C006F8B53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEF079262A4C6B1B006F8B53 /* BeersPackage in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEF079042A4C684D006F8B53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEF0790E2A4C684E006F8B53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -97,7 +223,14 @@
 				AA503FAE27E2319E000CD4FA /* ApiPracticeswiftUI */,
 				AA503FBF27E2319F000CD4FA /* ApiPracticeswiftUITests */,
 				AA503FC927E2319F000CD4FA /* ApiPracticeswiftUIUITests */,
+				BEF078F92A4C684C006F8B53 /* ApiPraticeSwiftUITvOS */,
+				BEF0790A2A4C684E006F8B53 /* ApiPraticeSwiftUITvOSTests */,
+				BEF079142A4C684E006F8B53 /* ApiPraticeSwiftUITvOSUITests */,
+				BEE0F8062A4D874400E97BD9 /* ApiPracticeSwiftUIWatch Watch App */,
+				BEE0F8172A4D874600E97BD9 /* ApiPracticeSwiftUIWatch Watch AppTests */,
+				BEE0F8212A4D874600E97BD9 /* ApiPracticeSwiftUIWatch Watch AppUITests */,
 				AA503FAD27E2319E000CD4FA /* Products */,
+				BEF079222A4C6B1B006F8B53 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -107,6 +240,12 @@
 				AA503FAC27E2319E000CD4FA /* ApiPracticeswiftUI.app */,
 				AA503FBC27E2319F000CD4FA /* ApiPracticeswiftUITests.xctest */,
 				AA503FC627E2319F000CD4FA /* ApiPracticeswiftUIUITests.xctest */,
+				BEF078F82A4C684C006F8B53 /* ApiPraticeSwiftUITvOS.app */,
+				BEF079072A4C684D006F8B53 /* ApiPraticeSwiftUITvOSTests.xctest */,
+				BEF079112A4C684E006F8B53 /* ApiPraticeSwiftUITvOSUITests.xctest */,
+				BEE0F8052A4D874400E97BD9 /* ApiPracticeSwiftUIWatch Watch App.app */,
+				BEE0F8142A4D874600E97BD9 /* ApiPracticeSwiftUIWatch Watch AppTests.xctest */,
+				BEE0F81E2A4D874600E97BD9 /* ApiPracticeSwiftUIWatch Watch AppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -166,9 +305,87 @@
 		AA503FDF27E27E84000CD4FA /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
-				AA503FD927E23F91000CD4FA /* BeerViewModel.swift */,
 			);
 			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		BEE0F8062A4D874400E97BD9 /* ApiPracticeSwiftUIWatch Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				BEE0F8072A4D874400E97BD9 /* ApiPracticeSwiftUIWatchApp.swift */,
+				BEE0F8092A4D874400E97BD9 /* ContentView.swift */,
+				BEE0F80B2A4D874500E97BD9 /* Assets.xcassets */,
+				BEE0F80D2A4D874500E97BD9 /* Preview Content */,
+			);
+			path = "ApiPracticeSwiftUIWatch Watch App";
+			sourceTree = "<group>";
+		};
+		BEE0F80D2A4D874500E97BD9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BEE0F80E2A4D874500E97BD9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BEE0F8172A4D874600E97BD9 /* ApiPracticeSwiftUIWatch Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				BEE0F8182A4D874600E97BD9 /* ApiPracticeSwiftUIWatch_Watch_AppTests.swift */,
+			);
+			path = "ApiPracticeSwiftUIWatch Watch AppTests";
+			sourceTree = "<group>";
+		};
+		BEE0F8212A4D874600E97BD9 /* ApiPracticeSwiftUIWatch Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BEE0F8222A4D874600E97BD9 /* ApiPracticeSwiftUIWatch_Watch_AppUITests.swift */,
+				BEE0F8242A4D874600E97BD9 /* ApiPracticeSwiftUIWatch_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "ApiPracticeSwiftUIWatch Watch AppUITests";
+			sourceTree = "<group>";
+		};
+		BEF078F92A4C684C006F8B53 /* ApiPraticeSwiftUITvOS */ = {
+			isa = PBXGroup;
+			children = (
+				BEF078FA2A4C684C006F8B53 /* ApiPraticeSwiftUITvOSApp.swift */,
+				BEF078FC2A4C684C006F8B53 /* ContentView.swift */,
+				BEF078FE2A4C684D006F8B53 /* Assets.xcassets */,
+				BEF079002A4C684D006F8B53 /* Preview Content */,
+			);
+			path = ApiPraticeSwiftUITvOS;
+			sourceTree = "<group>";
+		};
+		BEF079002A4C684D006F8B53 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BEF079012A4C684D006F8B53 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BEF0790A2A4C684E006F8B53 /* ApiPraticeSwiftUITvOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				BEF0790B2A4C684E006F8B53 /* ApiPraticeSwiftUITvOSTests.swift */,
+			);
+			path = ApiPraticeSwiftUITvOSTests;
+			sourceTree = "<group>";
+		};
+		BEF079142A4C684E006F8B53 /* ApiPraticeSwiftUITvOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BEF079152A4C684E006F8B53 /* ApiPraticeSwiftUITvOSUITests.swift */,
+				BEF079172A4C684E006F8B53 /* ApiPraticeSwiftUITvOSUITestsLaunchTests.swift */,
+			);
+			path = ApiPraticeSwiftUITvOSUITests;
+			sourceTree = "<group>";
+		};
+		BEF079222A4C6B1B006F8B53 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,14 +398,15 @@
 				AA503FA827E2319E000CD4FA /* Sources */,
 				AA503FA927E2319E000CD4FA /* Frameworks */,
 				AA503FAA27E2319E000CD4FA /* Resources */,
+				BEE0F8292A4D874600E97BD9 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				BEE0F8272A4D874600E97BD9 /* PBXTargetDependency */,
 			);
 			name = ApiPracticeswiftUI;
 			packageProductDependencies = (
-				AA503FDC27E2424F000CD4FA /* Alamofire */,
 				BE62DCEC2A4C1901002F4EF1 /* BeersPackage */,
 			);
 			productName = ApiPracticeswiftUI;
@@ -231,6 +449,118 @@
 			productReference = AA503FC627E2319F000CD4FA /* ApiPracticeswiftUIUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		BEE0F8042A4D874400E97BD9 /* ApiPracticeSwiftUIWatch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEE0F8302A4D874600E97BD9 /* Build configuration list for PBXNativeTarget "ApiPracticeSwiftUIWatch Watch App" */;
+			buildPhases = (
+				BEE0F8012A4D874400E97BD9 /* Sources */,
+				BEE0F8022A4D874400E97BD9 /* Frameworks */,
+				BEE0F8032A4D874400E97BD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ApiPracticeSwiftUIWatch Watch App";
+			packageProductDependencies = (
+				BEE0F8332A4D8EE600E97BD9 /* BeersPackage */,
+			);
+			productName = "ApiPracticeSwiftUIWatch Watch App";
+			productReference = BEE0F8052A4D874400E97BD9 /* ApiPracticeSwiftUIWatch Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BEE0F8132A4D874600E97BD9 /* ApiPracticeSwiftUIWatch Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEE0F8312A4D874600E97BD9 /* Build configuration list for PBXNativeTarget "ApiPracticeSwiftUIWatch Watch AppTests" */;
+			buildPhases = (
+				BEE0F8102A4D874600E97BD9 /* Sources */,
+				BEE0F8112A4D874600E97BD9 /* Frameworks */,
+				BEE0F8122A4D874600E97BD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEE0F8162A4D874600E97BD9 /* PBXTargetDependency */,
+			);
+			name = "ApiPracticeSwiftUIWatch Watch AppTests";
+			productName = "ApiPracticeSwiftUIWatch Watch AppTests";
+			productReference = BEE0F8142A4D874600E97BD9 /* ApiPracticeSwiftUIWatch Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BEE0F81D2A4D874600E97BD9 /* ApiPracticeSwiftUIWatch Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEE0F8322A4D874600E97BD9 /* Build configuration list for PBXNativeTarget "ApiPracticeSwiftUIWatch Watch AppUITests" */;
+			buildPhases = (
+				BEE0F81A2A4D874600E97BD9 /* Sources */,
+				BEE0F81B2A4D874600E97BD9 /* Frameworks */,
+				BEE0F81C2A4D874600E97BD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEE0F8202A4D874600E97BD9 /* PBXTargetDependency */,
+			);
+			name = "ApiPracticeSwiftUIWatch Watch AppUITests";
+			productName = "ApiPracticeSwiftUIWatch Watch AppUITests";
+			productReference = BEE0F81E2A4D874600E97BD9 /* ApiPracticeSwiftUIWatch Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		BEF078F72A4C684C006F8B53 /* ApiPraticeSwiftUITvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEF079192A4C684E006F8B53 /* Build configuration list for PBXNativeTarget "ApiPraticeSwiftUITvOS" */;
+			buildPhases = (
+				BEF078F42A4C684C006F8B53 /* Sources */,
+				BEF078F52A4C684C006F8B53 /* Frameworks */,
+				BEF078F62A4C684C006F8B53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ApiPraticeSwiftUITvOS;
+			packageProductDependencies = (
+				BEF079252A4C6B1B006F8B53 /* BeersPackage */,
+			);
+			productName = ApiPraticeSwiftUITvOS;
+			productReference = BEF078F82A4C684C006F8B53 /* ApiPraticeSwiftUITvOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BEF079062A4C684D006F8B53 /* ApiPraticeSwiftUITvOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEF0791C2A4C684E006F8B53 /* Build configuration list for PBXNativeTarget "ApiPraticeSwiftUITvOSTests" */;
+			buildPhases = (
+				BEF079032A4C684D006F8B53 /* Sources */,
+				BEF079042A4C684D006F8B53 /* Frameworks */,
+				BEF079052A4C684D006F8B53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEF079092A4C684E006F8B53 /* PBXTargetDependency */,
+			);
+			name = ApiPraticeSwiftUITvOSTests;
+			productName = ApiPraticeSwiftUITvOSTests;
+			productReference = BEF079072A4C684D006F8B53 /* ApiPraticeSwiftUITvOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BEF079102A4C684E006F8B53 /* ApiPraticeSwiftUITvOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEF0791F2A4C684E006F8B53 /* Build configuration list for PBXNativeTarget "ApiPraticeSwiftUITvOSUITests" */;
+			buildPhases = (
+				BEF0790D2A4C684E006F8B53 /* Sources */,
+				BEF0790E2A4C684E006F8B53 /* Frameworks */,
+				BEF0790F2A4C684E006F8B53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEF079132A4C684E006F8B53 /* PBXTargetDependency */,
+			);
+			name = ApiPraticeSwiftUITvOSUITests;
+			productName = ApiPraticeSwiftUITvOSUITests;
+			productReference = BEF079112A4C684E006F8B53 /* ApiPraticeSwiftUITvOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -238,7 +568,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1320;
+				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
 					AA503FAB27E2319E000CD4FA = {
@@ -252,6 +582,28 @@
 						CreatedOnToolsVersion = 13.2.1;
 						TestTargetID = AA503FAB27E2319E000CD4FA;
 					};
+					BEE0F8042A4D874400E97BD9 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					BEE0F8132A4D874600E97BD9 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = BEE0F8042A4D874400E97BD9;
+					};
+					BEE0F81D2A4D874600E97BD9 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = BEE0F8042A4D874400E97BD9;
+					};
+					BEF078F72A4C684C006F8B53 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					BEF079062A4C684D006F8B53 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = BEF078F72A4C684C006F8B53;
+					};
+					BEF079102A4C684E006F8B53 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = BEF078F72A4C684C006F8B53;
+					};
 				};
 			};
 			buildConfigurationList = AA503FA727E2319E000CD4FA /* Build configuration list for PBXProject "ApiPracticeswiftUI" */;
@@ -264,7 +616,6 @@
 			);
 			mainGroup = AA503FA327E2319E000CD4FA;
 			packageReferences = (
-				AA503FDB27E2424F000CD4FA /* XCRemoteSwiftPackageReference "Alamofire" */,
 				BE62DCEB2A4C1901002F4EF1 /* XCLocalSwiftPackageReference "../../Desktop/Formation/BeersPackage" */,
 			);
 			productRefGroup = AA503FAD27E2319E000CD4FA /* Products */;
@@ -274,6 +625,12 @@
 				AA503FAB27E2319E000CD4FA /* ApiPracticeswiftUI */,
 				AA503FBB27E2319F000CD4FA /* ApiPracticeswiftUITests */,
 				AA503FC527E2319F000CD4FA /* ApiPracticeswiftUIUITests */,
+				BEF078F72A4C684C006F8B53 /* ApiPraticeSwiftUITvOS */,
+				BEF079062A4C684D006F8B53 /* ApiPraticeSwiftUITvOSTests */,
+				BEF079102A4C684E006F8B53 /* ApiPraticeSwiftUITvOSUITests */,
+				BEE0F8042A4D874400E97BD9 /* ApiPracticeSwiftUIWatch Watch App */,
+				BEE0F8132A4D874600E97BD9 /* ApiPracticeSwiftUIWatch Watch AppTests */,
+				BEE0F81D2A4D874600E97BD9 /* ApiPracticeSwiftUIWatch Watch AppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -303,6 +660,52 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BEE0F8032A4D874400E97BD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEE0F80F2A4D874500E97BD9 /* Preview Assets.xcassets in Resources */,
+				BEE0F80C2A4D874500E97BD9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEE0F8122A4D874600E97BD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEE0F81C2A4D874600E97BD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEF078F62A4C684C006F8B53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEF079022A4C684D006F8B53 /* Preview Assets.xcassets in Resources */,
+				BEF078FF2A4C684D006F8B53 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEF079052A4C684D006F8B53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEF0790F2A4C684E006F8B53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -310,7 +713,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA503FDA27E23F91000CD4FA /* BeerViewModel.swift in Sources */,
 				AA503FB227E2319E000CD4FA /* HomeView.swift in Sources */,
 				BEADFEE42A49E02B0064E2A9 /* FavoriteBeerView.swift in Sources */,
 				AA503FE827E33988000CD4FA /* RandomBeerView.swift in Sources */,
@@ -339,6 +741,58 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BEE0F8012A4D874400E97BD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEE0F80A2A4D874400E97BD9 /* ContentView.swift in Sources */,
+				BEE0F8082A4D874400E97BD9 /* ApiPracticeSwiftUIWatchApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEE0F8102A4D874600E97BD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEE0F8192A4D874600E97BD9 /* ApiPracticeSwiftUIWatch_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEE0F81A2A4D874600E97BD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEE0F8252A4D874600E97BD9 /* ApiPracticeSwiftUIWatch_Watch_AppUITestsLaunchTests.swift in Sources */,
+				BEE0F8232A4D874600E97BD9 /* ApiPracticeSwiftUIWatch_Watch_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEF078F42A4C684C006F8B53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEF078FD2A4C684C006F8B53 /* ContentView.swift in Sources */,
+				BEF078FB2A4C684C006F8B53 /* ApiPraticeSwiftUITvOSApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEF079032A4C684D006F8B53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEF0790C2A4C684E006F8B53 /* ApiPraticeSwiftUITvOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEF0790D2A4C684E006F8B53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEF079182A4C684E006F8B53 /* ApiPraticeSwiftUITvOSUITestsLaunchTests.swift in Sources */,
+				BEF079162A4C684E006F8B53 /* ApiPraticeSwiftUITvOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -351,6 +805,32 @@
 			isa = PBXTargetDependency;
 			target = AA503FAB27E2319E000CD4FA /* ApiPracticeswiftUI */;
 			targetProxy = AA503FC727E2319F000CD4FA /* PBXContainerItemProxy */;
+		};
+		BEE0F8162A4D874600E97BD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BEE0F8042A4D874400E97BD9 /* ApiPracticeSwiftUIWatch Watch App */;
+			targetProxy = BEE0F8152A4D874600E97BD9 /* PBXContainerItemProxy */;
+		};
+		BEE0F8202A4D874600E97BD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BEE0F8042A4D874400E97BD9 /* ApiPracticeSwiftUIWatch Watch App */;
+			targetProxy = BEE0F81F2A4D874600E97BD9 /* PBXContainerItemProxy */;
+		};
+		BEE0F8272A4D874600E97BD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			platformFilter = ios;
+			target = BEE0F8042A4D874400E97BD9 /* ApiPracticeSwiftUIWatch Watch App */;
+			targetProxy = BEE0F8262A4D874600E97BD9 /* PBXContainerItemProxy */;
+		};
+		BEF079092A4C684E006F8B53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BEF078F72A4C684C006F8B53 /* ApiPraticeSwiftUITvOS */;
+			targetProxy = BEF079082A4C684E006F8B53 /* PBXContainerItemProxy */;
+		};
+		BEF079132A4C684E006F8B53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BEF078F72A4C684C006F8B53 /* ApiPraticeSwiftUITvOS */;
+			targetProxy = BEF079122A4C684E006F8B53 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -474,6 +954,7 @@
 		AA503FD127E2319F000CD4FA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -500,13 +981,14 @@
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		AA503FD227E2319F000CD4FA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -533,7 +1015,7 @@
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -613,6 +1095,352 @@
 			};
 			name = Release;
 		};
+		BEE0F82A2A4D874600E97BD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ApiPracticeSwiftUIWatch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = S2KRYFAPYX;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = ApiPracticeSwiftUIWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.iutsd.ApiPracticeswiftUI;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iutsd.ApiPracticeswiftUI.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		BEE0F82B2A4D874600E97BD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ApiPracticeSwiftUIWatch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = S2KRYFAPYX;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = ApiPracticeSwiftUIWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.iutsd.ApiPracticeswiftUI;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iutsd.ApiPracticeswiftUI.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		BEE0F82C2A4D874600E97BD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S2KRYFAPYX;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.formation.ApiPracticeSwiftUIWatch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ApiPracticeSwiftUIWatch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ApiPracticeSwiftUIWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		BEE0F82D2A4D874600E97BD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S2KRYFAPYX;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.formation.ApiPracticeSwiftUIWatch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ApiPracticeSwiftUIWatch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ApiPracticeSwiftUIWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		BEE0F82E2A4D874600E97BD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S2KRYFAPYX;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.formation.ApiPracticeSwiftUIWatch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "ApiPracticeSwiftUIWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		BEE0F82F2A4D874600E97BD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S2KRYFAPYX;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.formation.ApiPracticeSwiftUIWatch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "ApiPracticeSwiftUIWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		BEF0791A2A4C684E006F8B53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ApiPraticeSwiftUITvOS/Preview Content\"";
+				DEVELOPMENT_TEAM = S2KRYFAPYX;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.formation.ApiPraticeSwiftUITvOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 17.0;
+			};
+			name = Debug;
+		};
+		BEF0791B2A4C684E006F8B53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ApiPraticeSwiftUITvOS/Preview Content\"";
+				DEVELOPMENT_TEAM = S2KRYFAPYX;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.formation.ApiPraticeSwiftUITvOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 17.0;
+			};
+			name = Release;
+		};
+		BEF0791D2A4C684E006F8B53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S2KRYFAPYX;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.formation.ApiPraticeSwiftUITvOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ApiPraticeSwiftUITvOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ApiPraticeSwiftUITvOS";
+				TVOS_DEPLOYMENT_TARGET = 17.0;
+			};
+			name = Debug;
+		};
+		BEF0791E2A4C684E006F8B53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S2KRYFAPYX;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.formation.ApiPraticeSwiftUITvOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ApiPraticeSwiftUITvOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ApiPraticeSwiftUITvOS";
+				TVOS_DEPLOYMENT_TARGET = 17.0;
+			};
+			name = Release;
+		};
+		BEF079202A4C684E006F8B53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S2KRYFAPYX;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.formation.ApiPraticeSwiftUITvOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = ApiPraticeSwiftUITvOS;
+				TVOS_DEPLOYMENT_TARGET = 17.0;
+			};
+			name = Debug;
+		};
+		BEF079212A4C684E006F8B53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S2KRYFAPYX;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.formation.ApiPraticeSwiftUITvOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = ApiPraticeSwiftUITvOS;
+				TVOS_DEPLOYMENT_TARGET = 17.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -652,6 +1480,60 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		BEE0F8302A4D874600E97BD9 /* Build configuration list for PBXNativeTarget "ApiPracticeSwiftUIWatch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEE0F82A2A4D874600E97BD9 /* Debug */,
+				BEE0F82B2A4D874600E97BD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEE0F8312A4D874600E97BD9 /* Build configuration list for PBXNativeTarget "ApiPracticeSwiftUIWatch Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEE0F82C2A4D874600E97BD9 /* Debug */,
+				BEE0F82D2A4D874600E97BD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEE0F8322A4D874600E97BD9 /* Build configuration list for PBXNativeTarget "ApiPracticeSwiftUIWatch Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEE0F82E2A4D874600E97BD9 /* Debug */,
+				BEE0F82F2A4D874600E97BD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEF079192A4C684E006F8B53 /* Build configuration list for PBXNativeTarget "ApiPraticeSwiftUITvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEF0791A2A4C684E006F8B53 /* Debug */,
+				BEF0791B2A4C684E006F8B53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEF0791C2A4C684E006F8B53 /* Build configuration list for PBXNativeTarget "ApiPraticeSwiftUITvOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEF0791D2A4C684E006F8B53 /* Debug */,
+				BEF0791E2A4C684E006F8B53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEF0791F2A4C684E006F8B53 /* Build configuration list for PBXNativeTarget "ApiPraticeSwiftUITvOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEF079202A4C684E006F8B53 /* Debug */,
+				BEF079212A4C684E006F8B53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
 
 /* Begin XCLocalSwiftPackageReference section */
@@ -661,25 +1543,19 @@
 		};
 /* End XCLocalSwiftPackageReference section */
 
-/* Begin XCRemoteSwiftPackageReference section */
-		AA503FDB27E2424F000CD4FA /* XCRemoteSwiftPackageReference "Alamofire" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.0.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
 /* Begin XCSwiftPackageProductDependency section */
-		AA503FDC27E2424F000CD4FA /* Alamofire */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = AA503FDB27E2424F000CD4FA /* XCRemoteSwiftPackageReference "Alamofire" */;
-			productName = Alamofire;
-		};
 		BE62DCEC2A4C1901002F4EF1 /* BeersPackage */ = {
 			isa = XCSwiftPackageProductDependency;
+			productName = BeersPackage;
+		};
+		BEE0F8332A4D8EE600E97BD9 /* BeersPackage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BE62DCEB2A4C1901002F4EF1 /* XCLocalSwiftPackageReference "../../Desktop/Formation/BeersPackage" */;
+			productName = BeersPackage;
+		};
+		BEF079252A4C6B1B006F8B53 /* BeersPackage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BE62DCEB2A4C1901002F4EF1 /* XCLocalSwiftPackageReference "../../Desktop/Formation/BeersPackage" */;
 			productName = BeersPackage;
 		};
 /* End XCSwiftPackageProductDependency section */

@@ -4,6 +4,7 @@
 
 
 import SwiftUI
+import BeersPackage
 
 struct HomeView: View {
     
